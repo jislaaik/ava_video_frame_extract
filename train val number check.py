@@ -11,4 +11,4 @@ for i in list:
     times2 = lost.loc[lost['a'] == i].b.tolist()
     #print(len(times.unique()))
     #print(len(times2))
-    print(os.path.join("In " + str(i) + " there are " + str(len(times.unique()))))
+    print(os.path.join("In " + str(i) + " there are " + str(len(times.unique())) + " unique and total: " + str(len(times))))
